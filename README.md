@@ -17,7 +17,7 @@ CLD.detect_language("plus ça change, plus c'est la même chose")
 # => {:name => "FRENCH", :code => "fr", :reliable => true}
 
 CLD.detect_language_summary("hello world")
-=> {:result=>{:name=>"ENGLISH", :code=>"en", :reliable=>true}, :summary=>[{:name=>"ENGLISH", :code=>"en", :confidence=>92}, {:name=>"Unknown", :code=>"un", :confidence=>0}, {:name=>"Unknown", :code=>"un", :confidence=>0}]}
+# => {:result=>{:name=>"ENGLISH", :code=>"en", :reliable=>true}, :summary=>[{:name=>"ENGLISH", :code=>"en", :confidence=>92}, {:name=>"Unknown", :code=>"un", :confidence=>0}, {:name=>"Unknown", :code=>"un", :confidence=>0}]}
 ```
 
 ## Installation
