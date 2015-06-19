@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.extensions    = ["ext/cld/extconf.rb"]
   gem.name          = "cld2"
-  gem.require_paths = ["lib"]
+  gem.require_paths = ["lib", "ext"]
   gem.version       = CLD::VERSION
 
   gem.add_dependency "ffi", "~> 1.9.3"
